@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Binary conversion system</title>
+ <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+ <h1>Number System convertor</h1>
+ <div id="converter">
+ <div class="uppper">
+  <p id="errorMessage"></p>
+  <div class="help"></div>
+
+ </div>
+  <div class="container">   
+   <div class="labels">
+    <label>Enter number</label>
+    <label>From Base</label>
+    <label>To Base</label>
+ 
+   </div>
+   <div class="inputs">
+    <input title="number input" class="number-input" type="number" id="numberInput" placeholder="Enter your value"/>
+    <input list="bases" class="input-from" title="from base input" id="fromBaseInput" placeholder="From base" />
+    <input list="bases" class="input-to" title="to base input" id="toBaseInput" placeholder="To base" />
+    
+    <datalist name="from base" id="bases">
+     <option value="2 (binary)">
+     <option value="3">
+     <option value="4">
+     <option value="5">
+     <option value="6">
+     <option value="7">
+     <option value="8 (octal)">
+     <option value="9">
+     <option value="10 (decimal)">
+     <option value="11">
+     <option value="12">
+     <option value="13">
+     <option value="14">
+     <option value="15">
+     <option value="16 (hexadecimal)">
+     <option value="17">
+     <option value="18">
+     <option value="19">
+     <option value="20">
+     <option value="21">
+     <option value="22">
+     <option value="23">
+     <option value="24">
+     <option value="25">
+     <option value="26">
+     <option value="27">
+     <option value="28">
+     <option value="29">
+     <option value="30">
+     <option value="31">
+     <option value="32">
+     <option value="33">
+     <option value="34">
+     <option value="35">
+     <option value="36">
+    </datalist>
+ 
+ 
+   </div>
+
+
+  </div>
+  <div class="div-convert"><button id="convert"> Convert </button></div>
+  <div id="result"></div>
+ </div>
+
+
+ <script src="script/script.js"></script>
+
+</html>
+</body>
+
+</html>

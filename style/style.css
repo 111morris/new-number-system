@@ -1,0 +1,73 @@
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ background-color: azure;
+}
+
+#converter {
+ margin: 20px;
+ width: 300px;
+ background-color: bisque;
+ padding: 10px;
+ border-radius: 4px;
+}
+
+.container {
+ display: grid;
+ grid-template-columns: 40% 60%;
+}
+
+label {
+ display: block;
+ margin-bottom: .6rem;
+}
+
+.number-input,
+.input-to,
+.input-from {
+ width: 100%;
+ padding: 3px;
+ margin-top: 4px;
+ border: none;
+ border: 1px solid #ccc;
+ outline: none;
+ border-radius: 4px;
+}
+
+.number-input:focus,
+.input-to:focus,
+.input-from:focus {
+ border-color: #66e9bd;
+ box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+
+button {
+ padding: 10px 20px;
+ background: brown;
+ color: white;
+ border: none;
+ cursor: pointer;
+ margin: 5px 5px;
+ border-radius: 3px;
+ display: block;
+}
+
+.div-convert {
+ display: flex;
+ width: 100%;
+ justify-content: right;
+}
+
+#result {
+ display: block;
+}
+
+#errorMessage {
+ color: tomato;
+ margin-bottom: 10px;
+}
